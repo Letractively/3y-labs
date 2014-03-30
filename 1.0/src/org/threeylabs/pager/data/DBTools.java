@@ -21,12 +21,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
-import javax.sql.DataSource;
+
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.servlet.jsp.jstl.sql.Result;
 import javax.servlet.jsp.jstl.sql.ResultSupport;
-// 全局资源配置文件读取工具类
+import javax.sql.DataSource;
+
 import org.threeylabs.pager.globalconf.LoaderUtil;
 
 /**
